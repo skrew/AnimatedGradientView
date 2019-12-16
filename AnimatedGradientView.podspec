@@ -13,5 +13,6 @@ AnimatedGradientView makes it simple to create animated or static gradiented vie
   s.source           = { :git => 'https://github.com/rwbutler/AnimatedGradientView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ross_w_butler'
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '12.0'
   s.source_files = 'AnimatedGradientView/Classes/**/*'
 end
