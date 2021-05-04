@@ -3,11 +3,11 @@
 
  let package = Package(
      name: "AnimatedGradientView",
-     platforms: [.iOS(.v8)],
+     platforms: [.iOS(.v9)],
      products: [
          .library(name: "AnimatedGradientView", targets: ["AnimatedGradientView"])
      ],
      targets: [
-         .target(name: "AnimatedGradientView", path: "AnimatedGradientView/Classes"),
+         .target(name: "AnimatedGradientView", path: "AnimatedGradientView/Classes")
      ]
  )
